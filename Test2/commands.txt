@@ -6,3 +6,26 @@ cd ..
 git clone https://github.com/siyayang0420/gitTest2526.git
 mv Test2/ ~/Desktop/gitTest2526/
 cd gitTest2526/
+git add Test2/
+git commit -m "add Test2"
+git push origin master
+nano repo.txt
+git add repo.txt 
+git commit -m "add repo.txt"
+git push origin master
+nano index.html
+git add index.html 
+git commit -m "add index.html"
+git push origin master
+cd ~/Desktop/
+mkdir Q1
+cp -r ~/Desktop/gitTest2526/ ~/Desktop/Q1/
+cd gitTest2526/
+git tag ver1.00
+git push origin ver1.00
+git branch special_feature
+git push origin special_feature
+cat myfile.bak |grep "myhtml" > myhtml.txt
+nano index.html
+git add index.html 
+git commit -m "edit_1_index.html"
