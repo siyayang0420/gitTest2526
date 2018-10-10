@@ -1,0 +1,8 @@
+cd Desktop/
+mkdir Test2
+cd Test2/
+nano commands.txt
+cd ..
+git clone https://github.com/siyayang0420/gitTest2526.git
+mv Test2/ ~/Desktop/gitTest2526/
+cd gitTest2526/
