@@ -29,3 +29,16 @@ cat myfile.bak |grep "myhtml" > myhtml.txt
 nano index.html
 git add index.html 
 git commit -m "edit_1_index.html"
+Git checkout branch special_feature 
+Nano index.html
+git add index.html
+git commit -m "edit_index.html"
+git push origin special_feature
+cat ~/Desktop/assets/myfile.bak | grep "myjs" > index.js
+git add index.js
+git commit -m "add index.js"
+git push origin special_feature
+cat ~/Desktop/assets/myfile.bak | grep "mycss" > index.css
+git add index.css
+git commit -m "add index.css"
+git push origin special_feature
